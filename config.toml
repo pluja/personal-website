@@ -54,10 +54,6 @@ enableGitInfo   = true
       identifier = "projects"
       name       = "Projects"
       url        = "/projects"
-    [[menu.main]]
-      identifier = "love"
-      name       = "Love"
-      url        = "/love"
     [[params.social]]
       name = "email"
       url  = "mailto:pluja@r3d.red"
