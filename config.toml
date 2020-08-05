@@ -50,6 +50,10 @@ enableGitInfo   = true
       identifier = "about"
       name       = "About"
       url        = "/about"
+     [[menu.main]]
+      identifier = "projects"
+      name       = "Projects"
+      url        = "/projects"
     [[menu.main]]
       identifier = "likes"
       name       = "Likes"
