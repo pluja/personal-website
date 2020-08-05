@@ -2,9 +2,6 @@
     <div class="footer__inner">
         <div class="footer__content">
             <span>&copy; {{ now.Format "2006" }}</span>
-            {{ if .Site.Author.name }}
-                <span><a href="{{ .Site.BaseURL }}">{{ .Site.Author.name }}</a></span>
-            {{ end }}
             {{ if .Site.Copyright }}
                 <span>{{ .Site.Copyright| safeHTML }}</span>
             {{ end }}
@@ -14,7 +11,7 @@
     <div class="footer__inner">
         <div class="footer__content">
             <span>Powered by <a href="http://gohugo.io">Hugo</a></span>
-            <span>Made with &#10084; by <a href="https://github.com/rhazdon">Djordje Atlialp</a></span>
+            <span>Made with &#10084; by <a href="https://github.com/pluja">Pluja</a></span>
         </div>
     </div>
 </footer>
