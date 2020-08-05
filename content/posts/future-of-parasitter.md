@@ -16,7 +16,7 @@ It was bad news to read that Omar Roth, the main developer of Invidious, [is ste
 
 Funny enough, a few weeks before this news I started a project called [Parasitter](https://github.com/pluja/Parasitter). It was basically a web app which let you group all content from your Twitter's and Youtube's favorite creators and enjoy it all in one place. With the condition of respecting your privacy. So no connections to Youtube nor Twitter were made.
 
-This was possible thanks to two awesome projects: [Nitter](https://nitter.net) and [Invidious](https://invidio.us/) both part from the same concept which is to let users read/watch Twitter/Youtube without the need of visiting their webpages nor making any connection to their servers. This is **really** good as those services are known for **not respecting privacy at all**. And, if you are reading this, you should know that **privacy REALLY matters**.
+This was possible thanks to two awesome projects: [Nitter](https://nitter.net) and [Invidious](https://invidio.us/). Both part from the same concept which is to let users read/watch Twitter/Youtube without the need of visiting their webpages nor making any connection to their servers. This is **really** good as those services are known for **not respecting privacy at all**. And, if you are reading this, you should know that **privacy REALLY matters**.
 
 A few weeks later, Omar announced that he was stepping away from the Invidious project, leaving the project without a programmer. This means that Parasitter will no longer be viable as it was fed by the Invidious API for most of its functions.
 
