@@ -2,6 +2,6 @@ Here you will find all of my personal projects. The ones I'm currently working o
 
 | Name                                 | Description                                                     |
 |--------------------------------------|-----------------------------------------------------------------|
-| [kycnot.me](https://kycnot.me/)  🔨  |   |
-| [Parasitter](https://github.com/pluja/Parasitter) 🔨  |   |
+| [kycnot.me](https://kycnot.me/)  🔨  | Simple yet useful site where I list exchanges, services and merchants that accept Bitcoin and Monero without the need for KYC.|
+| [Parasitter](https://github.com/pluja/Parasitter) 🔨  | Parasitter allows you to follow your favorite Twitter and YouTube accounts with full privacy. |
 | [Flasktatic](https://github.com/pluja/Flasktatic) 🏁  | Easily get static sites generated with flask.  |
