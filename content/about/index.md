@@ -1,5 +1,5 @@
 # About me
-Online, I go by the pseudonym Pluja. I am a dedicated Linux user and I have a strange love for cibersecurity. At the moment, I’m a university student studying to obtain my Degree in Computer Science with a concentration in Systems.
+Online, I go by the pseudonym Pluja. I am a dedicated Linux user who loves free open source software. At the moment, I’m a university student studying to obtain my Degree in Computer Science with a concentration in Cibersecurity.
 
 Currently I am working on several personal projects like [kycnot](https://kycnot.me), [Parasitter](https://github.com/pluja/Parasitter) or [CloackMe](https://github.com/pluja/CloackMe). I also run a [website](https://tuprivacidad.org) where I try to concern users about the importance of privacy (it's in spanish!). I've been to many hackathons in the last few years and I've learned and enjoyed a lot, so if you're into hackathons we may have probably met :)
 
