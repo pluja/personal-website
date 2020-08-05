@@ -4,7 +4,7 @@
   text-decoration: none;
   font-weight: bold;
   font-display: auto;
-  font-family: monospace, monospace;
+  font-family: monospace;
 
   img {
     height: 44px;
@@ -21,9 +21,8 @@
   &__cursor {
     display: inline-block;
     width: 10px;
-    height: 1rem;
+    height: 1.27rem;
     background: #fe5186;
-    margin-left: 5px;
     border-radius: 1px;
     animation: cursor 1s infinite;
   }
