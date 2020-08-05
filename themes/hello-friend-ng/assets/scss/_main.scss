@@ -5,6 +5,15 @@ html {
   scroll-behavior: smooth;
 }
 
+::selection {
+  background: #ff7f5f;
+  color: white;
+}
+::-moz-selection {
+  background: #ff7f5f;
+  color: white;
+}
+
 *,
 *:before,
 *:after {
@@ -14,15 +23,15 @@ html {
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Inter UI', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  Helvetica, Arial, sans-serif;
+  font-family: 'Concourse', -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI",  Helvetica, Arial, sans-serif;
   font-display: auto;
-  font-size: 1rem;
+  font-size: 22px;
   line-height: 1.54;
   background-color: $light-background;
   color: $light-color;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  font-feature-settings: "liga", "tnum", "case", "calt", "zero", "ss01", "locl";
+  font-feature-settings: "liga", "ss01";
   -webkit-overflow-scrolling: touch;
   -webkit-text-size-adjust: 100%;
 
@@ -31,7 +40,7 @@ body {
   flex-direction: column;
 
   @media #{$media-size-phone} {
-    font-size: 1rem;
+    font-size: 20px;
   }
 
   &.dark-theme {
@@ -100,10 +109,37 @@ img {
   &.right {
     margin-left: auto;
   }
-  &.circle {
-    border-radius: 50%;
-    max-width: 25%;
-    margin: auto;
+}
+
+video {
+  display: block;
+  width: 100%;
+  &.left {
+    margin-right: auto;
+  }
+
+  &.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  &.right {
+    margin-left: auto;
+  }
+}
+
+audio {
+  display: block;
+  width: 100%;
+  &.left {
+    margin-right: auto;
+  }
+  &.center {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  &.right {
+    margin-left: auto;
   }
 }
 
@@ -116,14 +152,6 @@ figure {
     margin-right: auto;
   }
 
-  &.left-floated {
-    margin-right: auto;
-    float: left;
-    img {
-      margin: 20px 20px 20px 0;
-    }
-  }
-
   &.center {
     margin-left: auto;
     margin-right: auto;
@@ -131,20 +159,6 @@ figure {
 
   &.right {
     margin-left: auto;
-  }
-
-  &.right-floated {
-    margin-left: auto;
-    float: right;
-    img {
-      margin: 20px 0 20px 20px;
-    }
-  }
-
-  &.rounded {
-    img {
-      border-radius: 50%;
-    }
   }
 
   figcaption {
@@ -167,7 +181,7 @@ figure {
 }
 
 code {
-  font-family: Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;
+  font-family: 'JetBrains Mono',Consolas,Monaco,Andale Mono,Ubuntu Mono,monospace;
   font-display: auto;
   font-feature-settings: normal;
   background: $light-background-secondary;
@@ -182,8 +196,8 @@ code {
 }
 
 pre {
-  background: #212020;
-  padding: 10px 10px 10px 20px;
+  background: #202020;
+  padding: 20px;
   border-radius: 8px;
   font-size: .95rem;
   overflow: auto;
@@ -235,6 +249,30 @@ blockquote {
   }
 }
 
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+tr:hover {
+  background-color: hsl(0, 0%, 96%);
+  .dark-theme & {
+    background-color: #303135;
+  }
+}
+
+th, td {
+  padding: 10px;
+}
+
+table, th, td {
+  border: 2px solid $light-border-color;
+  border-radius: 25px;
+  .dark-theme & {
+    border: 2px solid $dark-border-color;
+  }
+}
+
 ul, ol {
   margin-left: 40px;
   padding: 0;
@@ -262,7 +300,7 @@ ol ol {
   flex: 1 auto;
   align-items: center;
   justify-content: center;
-  margin: 0;
+  margin: 50px 0;
 
   @media #{$media-size-phone} {
     margin-top: 0;
@@ -280,6 +318,24 @@ hr {
   }
 }
 
+.categories {
+  &-button {
+    font-size: 1rem;
+    color: #{$light-color};
+    display: inline-block;
+    border: 1px solid #{$light-color};
+    border-radius: .313rem;
+    padding: .15rem .6rem;
+    margin-right: .125rem;
+    margin-bottom: 1.2rem;
+    text-decoration: none !important;
+    .dark-theme & {
+      border: 1px solid #{$dark-color};
+      color: #{$dark-color};
+    }
+  }
+}
+
 .hidden {
   display: none;
 }
@@ -294,6 +350,10 @@ hr {
   @media #{$media-size-tablet} {
     display: none;
   }
+}
+
+#toc {
+  font-size: 17px;
 }
 
 // Accessibility
@@ -322,11 +382,11 @@ hr {
 	font-size: 0.875rem;
 	font-weight: bold;
 	height: auto;
-    width: auto;
-    top: 5px;
 	left: 5px;
 	line-height: normal;
 	padding: 15px 23px 14px;
 	text-decoration: none;
+	top: 5px;
+	width: auto;
 	z-index: 100000;
 }

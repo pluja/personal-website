@@ -36,6 +36,7 @@
 
   .post {
     &-title {
+      font-family: "Concourse";
       font-size: 1rem;
       margin: 5px 0 5px 0;
     }
@@ -64,6 +65,7 @@
     }
 
     &-day {
+      font-size: 1rem;
       flex-shrink: 0;
       margin-left: 1em;
       @include dimmed;

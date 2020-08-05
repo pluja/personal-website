@@ -4,6 +4,15 @@
   text-align: left;
   padding: 20px;
   margin: 20px auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
   @media #{$media-size-tablet} {
     max-width: 600px;
   }
@@ -15,8 +24,10 @@
   }
 
   &-title {
+    font-family: "Concourse SC";
     font-size: 2.625rem;
     margin: 0 0 20px;
+
     @media #{$media-size-phone} {
       font-size: 2rem;
     }
@@ -30,7 +41,7 @@
     display: block;
     margin-bottom: 20px;
     font-size: 1rem;
-    opacity: 0.5;
+    opacity: .5;
 
     a {
       text-decoration: none;
@@ -39,6 +50,53 @@
 
   &-content {
     margin-top: 30px;
+    a {
+      text-decoration: none;
+      background-image: linear-gradient(120deg, #e96443 0%, #904e95 100%);
+      background-repeat: no-repeat;
+      background-size: 0 0;
+      background-position: 100% 21%;
+      transition: 0.15s ease-out;
+      &::after {
+        position: relative;
+        content: "\FEFF°";
+        margin-left: 0.10em;
+        font-size: 90%;
+        top: -0.10em;
+        color: #BD596C;
+        font-feature-settings: "caps";
+        font-variant-numeric: normal;
+      }
+      &:hover {
+          &::after {
+            color: #904e95;
+          }
+        background-size: 100% 100%;
+        color: #fff;
+      }
+    }
+    .footnote-ref {
+      background-size: 100% 0.5em;
+      background-position: 0 150%;
+      &::after {
+        content: "";
+      }
+      &:hover {
+        background-size: 100% 100%;
+        color: #fff;
+      }
+    }
+    .footnote-backref {
+      background-size: 100% 0.5em;
+      background-position: 0 150%;
+      &::after {
+        content: "";
+      }
+      &:hover {
+        background-size: 100% 100%;
+        color: #fff;
+      }
+    }
   }
 
   &-cover {
@@ -46,6 +104,7 @@
     margin: 40px -50px;
     width: 860px;
     max-width: 860px;
+
     @media #{$media-size-tablet} {
       margin: 20px 0;
       width: 100%;
@@ -54,27 +113,189 @@
 
   &-info {
     margin-top: 30px;
-    font-size: 0.8rem;
+    font-size: .8rem;
     line-height: normal;
     @include dimmed;
 
     p {
-      margin: 0.8em 0;
-    }
-
-    a:hover {
-      border-bottom: 1px solid white;
+      margin: .8em 0;
     }
 
     svg {
-      margin-right: 0.8em;
+      margin-right: .8em;
     }
 
     .tag {
-      margin-right: 0.5em;
+      margin-right: .5em;
 
       &::before {
-        content: "#";
+        content: "#"
+      }
+    }
+
+    .feather {
+      display: inline-block;
+      vertical-align: -.125em;
+      width: 1em;
+      height: 1em;
+    }
+  }
+
+  .flag {
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+}
+.post-dnd {
+  width: 100%;
+  max-width: 800px;
+  text-align: left;
+  padding: 20px;
+  margin: 20px auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  -ms-word-break: break-all;
+  word-break: break-word;
+  -ms-hyphens: auto;
+  -moz-hyphens: auto;
+  -webkit-hyphens: auto;
+  hyphens: auto;
+
+  @media #{$media-size-tablet} {
+    max-width: 600px;
+  }
+
+  &-date {
+  font-family: "Valkyrie";
+    &:after {
+      content: '—';
+    }
+  }
+
+  &-title {
+  font-family: "Valkyrie SC Bold";
+    font-size: 40px;
+    margin: 0 0 30px;
+
+    @media #{$media-size-phone} {
+      font-size: 2rem;
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &-tags {
+    display: block;
+    margin-bottom: 20px;
+    font-size: 1rem;
+    opacity: .5;
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &-content {
+    font-family: "Valkyrie";
+    font-size: 22px;
+    text-indent: 40px;
+    margin-top: 30px;
+    p {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    a {
+      text-decoration: none;
+      background-image: linear-gradient(120deg, #e96443 0%, #904e95 100%);
+      background-repeat: no-repeat;
+      background-size: 0 0;
+      background-position: 100% 21%;
+      transition: 0.15s ease-out;
+      &::after {
+        position: relative;
+        content: "\FEFF°";
+        margin-left: 0.10em;
+        font-size: 90%;
+        top: -0.10em;
+        color: #BD596C;
+        font-feature-settings: "caps";
+        font-variant-numeric: normal;
+      }
+      &:hover {
+          &::after {
+            color: #904e95;
+          }
+        background-size: 100% 100%;
+        color: #fff;
+      }
+    }
+    .footnote-ref {
+      background-size: 100% 0.5em;
+      background-position: 0 150%;
+      &::after {
+        content: "";
+      }
+      &:hover {
+        background-size: 100% 100%;
+        color: #fff;
+      }
+    }
+    .footnote-backref {
+      background-size: 100% 0.5em;
+      background-position: 0 150%;
+      &::after {
+        content: "";
+      }
+      &:hover {
+        background-size: 100% 100%;
+        color: #fff;
+      }
+    }
+    .footnotes {
+      text-indent: 0px;
+    }
+    @media #{$media-size-tablet} {
+      text-indent: 35px;
+    }
+    @media #{$media-size-phone} {
+      text-indent: 25px;
+      font-size: 20px;
+    }
+  }
+
+  &-cover {
+    border-radius: 8px;
+    margin: 40px -50px;
+    width: 860px;
+    max-width: 860px;
+
+    @media #{$media-size-tablet} {
+      margin: 20px 0;
+      width: 100%;
+    }
+  }
+
+  &-info {
+    margin-top: 30px;
+    font-size: .8rem;
+    line-height: normal;
+    @include dimmed;
+
+    p {
+      margin: 0 0;
+    }
+
+    svg {
+      margin-right: .8em;
+    }
+
+    .tag {
+      margin-right: .5em;
+
+      &::before {
+        content: "#"
       }
     }
 
@@ -92,6 +313,21 @@
   }
 }
 
+.image {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  a {
+    &::after {
+      display: none;
+    }
+    &:hover {
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
+
 .pagination {
   margin-top: 20px;
 
@@ -99,7 +335,7 @@
     display: flex;
     text-align: center;
     position: relative;
-    margin: 20px 0;
+    margin: 30px 0 20px;
 
     &-h {
       text-align: center;
@@ -107,10 +343,10 @@
       padding: 5px 10px;
       background: $light-background;
       color: $light-color-secondary;
-      font-size: 0.8rem;
+      font-size: .8rem;
       text-transform: uppercase;
       text-decoration: none;
-      letter-spacing: 0.1em;
+      letter-spacing: .1em;
       z-index: 1;
 
       .dark-theme & {
@@ -185,4 +421,24 @@
   &.previous .button__icon {
     margin-right: 8px;
   }
+}
+
+.top {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    max-width: 50px;
+    max-height: 50px;
+    width: 100%;
+    height: 100%;
+    padding: .5px;
+    justify-content: center;
+    background: $light-background-secondary;
+    font-size: 1rem;
+    font-weight: 800;
+    border-radius: 8px;
+
+    .dark-theme & {
+        background: $dark-background-secondary;
+    }
 }

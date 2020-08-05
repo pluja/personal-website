@@ -24,26 +24,22 @@
     color: $light-color-secondary;
 
     @media #{$media-size-tablet} {
-      flex-direction: column;
       margin-top: 10px;
     }
 
-    & > *:not(:last-child)::after {
-      content: "•";
-      padding: 0 5px;
-
-      @media #{$media-size-tablet} {
-          content: "";
-          padding: 0;
-      }
+    & > *:not(:last-child) {
+      border-right: 1px solid;
+      padding: 0 15px;
     }
 
     & > *:last-child {
-      padding: 0 5px;
-
-      @media #{$media-size-tablet} {
-          padding: 0;
-      }
+      padding: 0 15px;
     }
+    .dark-theme & {
+      color: $dark-color-secondary;
+    }
+  }
+  .dark-theme & {
+      color: $dark-color-secondary;
   }
 }
