@@ -3,28 +3,8 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/hello-world/</loc>
-    <lastmod>2020-08-04T23:42:03+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2020-08-04T23:42:03+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/</loc>
-    <lastmod>2020-08-04T23:42:03+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-08-04T23:42:03+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/untagged/</loc>
-    <lastmod>2020-08-04T23:42:03+02:00</lastmod>
+    <loc>/about/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
@@ -36,7 +16,15 @@
   </url>
   
   <url>
+    <loc>/</loc>
+  </url>
+  
+  <url>
     <loc>/series/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
   </url>
   
 </urlset>
