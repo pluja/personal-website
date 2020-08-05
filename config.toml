@@ -1,0 +1,68 @@
+baseURL = "/"
+languageCode = "EN"
+title = "P L U J A"
+theme = "hello-friend-ng"
+copyright = "This work is licensed under Creative Commons Attribution 4.0 International License."
+homeSubtitle = "Pluja's comfy website."
+enableGitInfo   = true
+[markup]
+  [markup.highlight]
+    style = "native"
+    guessSyntax = true
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  dnd = "dnd"
+[permalinks]
+  posts = "/:title/"
+[author]
+  name = "Pluja"
+[params]
+  dateform        = "2 January 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0500"
+  disableReadOtherPosts = false
+  defaultTheme = "dark"
+  description = "Blog of a pseudonymous netizen"
+  homeSubtitle = "Censorship reveals fear."
+  keywords = "sysadmin, privacy, opsec, infosec, linux, floss, foss, libre"
+  images = [""]
+  contentTypeName = "posts"
+  gitUrl = "https://github.com/pluja/"
+  cover = "/assets/pngs/a.png"
+[languages]
+  [languages.en]
+    title = "P L U J A"
+    subtitle = ""
+    keywords = ""
+    copyright = "<a href='https://creativecommons.org/licenses/by/4.0/' target='_blank'>CC-BY 4.0</a>"
+    readOtherPosts = "← Prev | Read more | Next →"
+    [languages.en.params.logo]
+      logoText = "> make fire"
+      logoHomeLink = "/"
+    [[menu.main]]
+      identifier = "blog"
+      name       = "Blog"
+      url        = "/posts"
+    [[menu.main]]
+      identifier = "about"
+      name       = "About"
+      url        = "/about"
+    [[menu.main]]
+      identifier = "likes"
+      name       = "Likes"
+      url        = "/likes"
+    [[params.social]]
+      name = "email"
+      url  = "mailto:pluja@r3d.red"
+    [[params.social]]
+      name = "mastodon"
+      url  = "https://social.nixnet.services/@renor"
+    [[params.social]]
+      name = "github"
+      url  = "https://github.com/pluja"
+    [[params.social]]
+      name = "gnupg"
+      url  = "/pluja.txt"
