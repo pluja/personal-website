@@ -50,20 +50,20 @@ enableGitInfo   = true
       identifier = "about"
       name       = "About"
       url        = "/about"
-     [[menu.main]]
+    [[menu.main]]
       identifier = "projects"
       name       = "Projects"
       url        = "/projects"
     [[menu.main]]
-      identifier = "likes"
-      name       = "Likes"
-      url        = "/likes"
+      identifier = "love"
+      name       = "Love"
+      url        = "/love"
     [[params.social]]
       name = "email"
       url  = "mailto:pluja@r3d.red"
     [[params.social]]
-      name = "mastodon"
-      url  = "https://social.nixnet.services/@renor"
+      name = "matrix"
+      url  = "https://matrix.to/#/@pluja:privacytools.io"
     [[params.social]]
       name = "github"
       url  = "https://github.com/pluja"
