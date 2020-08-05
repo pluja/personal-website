@@ -43,7 +43,7 @@ enableGitInfo   = true
       logoText = "> make fire"
       logoHomeLink = "/"
     [[menu.main]]
-      identifier = "blog"
+      identifier = "posts"
       name       = "Blog"
       url        = "/posts"
     [[menu.main]]
