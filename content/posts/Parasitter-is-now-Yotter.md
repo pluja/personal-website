@@ -1,8 +1,9 @@
 ---
 title: "Parasitter Is Now Yotter"
 date: 2020-08-31T12:34:30+02:00
-draft: true
+draft: false
 toc: false
+layout: dnd
 images:
 tags:
   - untagged
