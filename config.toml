@@ -47,6 +47,10 @@ enableGitInfo   = true
       name       = "Blog"
       url        = "/posts"
     [[menu.main]]
+      identifier = "lerni"
+      name = "Lerni_Kripta"
+      url = "/lernikripta"
+    [[menu.main]]
       identifier = "about"
       name       = "About"
       url        = "/about"
