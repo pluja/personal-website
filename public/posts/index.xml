@@ -1,0 +1,145 @@
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Posts on P L U J A</title>
+        <link>/posts/</link>
+        <description>Recent content in Posts on P L U J A</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>EN</language>
+        <copyright>&lt;a href=&#39;https://creativecommons.org/licenses/by/4.0/&#39; target=&#39;_blank&#39;&gt;CC-BY 4.0&lt;/a&gt;</copyright>
+        <lastBuildDate>Mon, 31 Aug 2020 12:34:30 +0200</lastBuildDate>
+        <atom:link href="/posts/index.xml" rel="self" type="application/rss+xml" />
+        
+        <item>
+            <title>Parasitter Is Now Yotter</title>
+            <link>/parasitter-is-now-yotter/</link>
+            <pubDate>Mon, 31 Aug 2020 12:34:30 +0200</pubDate>
+            
+            <guid>/parasitter-is-now-yotter/</guid>
+            <description>&lt;p&gt;I was told several times that &lt;em&gt;&amp;lsquo;Parasitter&amp;rsquo;&lt;/em&gt; wasn&amp;rsquo;t a very good name for the project. I like that name, though, because it defines what the project does: Parasite Youtube and Twitter. Also, at first this project was only about following Twitter accounts, hence the &amp;lsquo;itter&amp;rsquo;.&lt;/p&gt;
+&lt;p&gt;What it&amp;rsquo;s true is that a Parasite is a repellent thing, a bad thing. Also, the name was quite long and (kind of) complicated to pronounce. With all of this together, I decided to change the name of the project.&lt;/p&gt;
+&lt;p&gt;The name had to be short, catchy, representative and fun. I started thinking of abstract names like &amp;lsquo;Kurmi&amp;rsquo; or &amp;lsquo;Steor&amp;rsquo; but those names didn&amp;rsquo;t represent in any way the project.&lt;/p&gt;
+&lt;p&gt;Later, someone on Reddit, started purposing names combining the words &amp;lsquo;Youtube&amp;rsquo; and &amp;lsquo;Twitter&amp;rsquo; and I thought that was a good idea. So combining the names I came up with &lt;em&gt;Yotter&lt;/em&gt;, &lt;strong&gt;Yo&lt;/strong&gt;utube + Twi&lt;strong&gt;tter&lt;/strong&gt;. I loved that name as soon as I saw that it contains the word &amp;lsquo;Otter&amp;rsquo;, one of my favorite animals.&lt;/p&gt;
+&lt;p&gt;Yotter is a fancy name which instantlly gives the project a mascot. It also represents what the project is seeking by combining the two words that give this project all the sense of being plus, it&amp;rsquo;s short.&lt;/p&gt;
+&lt;p&gt;So that&amp;rsquo;s it! Say hello to Yotter from now on:
+&lt;p class=&#34;image&#34;&gt;
+  &lt;a href=&#34;https://github.com/pluja/Yotter/raw/dev-indep/app/static/img/banner.png&#34; target=&#34;_blank&#34;&gt;
+    &lt;img loading=&#34;lazy&#34; src=&#34;https://github.com/pluja/Yotter/raw/dev-indep/app/static/img/banner.png&#34; alt=&#34;Yotter banner&#34;  /&gt;
+  &lt;/a&gt;
+&lt;/p&gt;
+&lt;/p&gt;
+</description>
+            <content type="html"><![CDATA[<p>I was told several times that <em>&lsquo;Parasitter&rsquo;</em> wasn&rsquo;t a very good name for the project. I like that name, though, because it defines what the project does: Parasite Youtube and Twitter. Also, at first this project was only about following Twitter accounts, hence the &lsquo;itter&rsquo;.</p>
+<p>What it&rsquo;s true is that a Parasite is a repellent thing, a bad thing. Also, the name was quite long and (kind of) complicated to pronounce. With all of this together, I decided to change the name of the project.</p>
+<p>The name had to be short, catchy, representative and fun. I started thinking of abstract names like &lsquo;Kurmi&rsquo; or &lsquo;Steor&rsquo; but those names didn&rsquo;t represent in any way the project.</p>
+<p>Later, someone on Reddit, started purposing names combining the words &lsquo;Youtube&rsquo; and &lsquo;Twitter&rsquo; and I thought that was a good idea. So combining the names I came up with <em>Yotter</em>, <strong>Yo</strong>utube + Twi<strong>tter</strong>. I loved that name as soon as I saw that it contains the word &lsquo;Otter&rsquo;, one of my favorite animals.</p>
+<p>Yotter is a fancy name which instantlly gives the project a mascot. It also represents what the project is seeking by combining the two words that give this project all the sense of being plus, it&rsquo;s short.</p>
+<p>So that&rsquo;s it! Say hello to Yotter from now on:
+<p class="image">
+  <a href="https://github.com/pluja/Yotter/raw/dev-indep/app/static/img/banner.png" target="_blank">
+    <img loading="lazy" src="https://github.com/pluja/Yotter/raw/dev-indep/app/static/img/banner.png" alt="Yotter banner"  />
+  </a>
+</p>
+</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Big week for Parasitter!</title>
+            <link>/big-week-for-parasitter/</link>
+            <pubDate>Sun, 16 Aug 2020 15:41:23 +0200</pubDate>
+            
+            <guid>/big-week-for-parasitter/</guid>
+            <description>&lt;p&gt;This week has been great for Parasitter! I have been working on a easy solution in order to protect user&amp;rsquo;s privacy while using Parasitter.&lt;/p&gt;
+&lt;p&gt;I started relying on Invidious as a &amp;lsquo;third-party&amp;rsquo; to stream the videos and get all the data, but since the announcement that we commented on the previous post
+I had to change it. So I started a new Parasitter branch where I am working to break any dependency with Invidious.&lt;/p&gt;
+&lt;p&gt;A very useful tool for this is &lt;code&gt;youtube-dl&lt;/code&gt; with it I can get the &lt;code&gt;GoogleVideo&lt;/code&gt; link. It is curious that Youtube is embeding a video from GoogleVideo on its webpage.
+So I can&amp;rsquo;t use the Youtube url as I would be dealing with a request to the video html page and not the video itself. So I need this GoogleVideo link so I can stream
+&lt;strong&gt;just&lt;/strong&gt; the video.&lt;/p&gt;
+&lt;p&gt;This is interesting, and at the same time annoying. Youtube (or Google) doesn&amp;rsquo;t have an easy translation to the GoogleVideo link. It is not like changing the &lt;code&gt;youtube.com&lt;/code&gt;
+for a &lt;code&gt;googlevideo.com&lt;/code&gt;. GoogleVideo links are very complex and random, so I can&amp;rsquo;t guess a video&amp;rsquo;s link with just its id. There are plenty of methods for doing this, but
+with &lt;code&gt;youtube-dl&lt;/code&gt; it is &lt;strong&gt;very&lt;/strong&gt; easy.&lt;/p&gt;
+&lt;p&gt;But Parasitter is a tool for protecting users privacy. So I can&amp;rsquo;t make the client stream a video from GoogleVideo, as it would be awful. Parasitter&amp;rsquo;s users should &lt;strong&gt;never&lt;/strong&gt;
+make any connection to Google. The only requests that a user should be doing are to Parasitter itself.&lt;/p&gt;
+&lt;p&gt;For doing so, I need to proxy a stream of video to the client through Parasitter. I started reading and trying to understand how Invidious did it. I also got in contact wiht
+Invidious creator, Omar Roth, which he kindly answered my questions (Thanks!). I made my own research with the things I learned and finally I got it to work using Python and
+Flask. So now when users connect to a (remote) Parasitter server, they will never connect to Google when wathcing videos!&lt;/p&gt;
+&lt;h2 id=&#34;next-steps&#34;&gt;Next steps&lt;/h2&gt;
+&lt;p&gt;Next steps are proxying the video thumbnails, as for now they are served from &lt;code&gt;ytimg&lt;/code&gt; (a service that google uses for storing and serving youtube images). Also I need to start
+working on the configuration page as it lacks most fundamental functions. Another good thing that I will be working on the future is on the ability to watch livestreams directly
+from Parasitter. And lastly, but not less important, the ability for the user to see a channel page directly from Parasitter.&lt;/p&gt;
+&lt;h2 id=&#34;conclusions&#34;&gt;Conclusions&lt;/h2&gt;
+&lt;p&gt;So that&amp;rsquo;s it! It&amp;rsquo;s been a great development week for Parasitter and it looks very good! I hope I can start testing on a public instance before September.&lt;/p&gt;
+</description>
+            <content type="html"><![CDATA[<p>This week has been great for Parasitter! I have been working on a easy solution in order to protect user&rsquo;s privacy while using Parasitter.</p>
+<p>I started relying on Invidious as a &lsquo;third-party&rsquo; to stream the videos and get all the data, but since the announcement that we commented on the previous post
+I had to change it. So I started a new Parasitter branch where I am working to break any dependency with Invidious.</p>
+<p>A very useful tool for this is <code>youtube-dl</code> with it I can get the <code>GoogleVideo</code> link. It is curious that Youtube is embeding a video from GoogleVideo on its webpage.
+So I can&rsquo;t use the Youtube url as I would be dealing with a request to the video html page and not the video itself. So I need this GoogleVideo link so I can stream
+<strong>just</strong> the video.</p>
+<p>This is interesting, and at the same time annoying. Youtube (or Google) doesn&rsquo;t have an easy translation to the GoogleVideo link. It is not like changing the <code>youtube.com</code>
+for a <code>googlevideo.com</code>. GoogleVideo links are very complex and random, so I can&rsquo;t guess a video&rsquo;s link with just its id. There are plenty of methods for doing this, but
+with <code>youtube-dl</code> it is <strong>very</strong> easy.</p>
+<p>But Parasitter is a tool for protecting users privacy. So I can&rsquo;t make the client stream a video from GoogleVideo, as it would be awful. Parasitter&rsquo;s users should <strong>never</strong>
+make any connection to Google. The only requests that a user should be doing are to Parasitter itself.</p>
+<p>For doing so, I need to proxy a stream of video to the client through Parasitter. I started reading and trying to understand how Invidious did it. I also got in contact wiht
+Invidious creator, Omar Roth, which he kindly answered my questions (Thanks!). I made my own research with the things I learned and finally I got it to work using Python and
+Flask. So now when users connect to a (remote) Parasitter server, they will never connect to Google when wathcing videos!</p>
+<h2 id="next-steps">Next steps</h2>
+<p>Next steps are proxying the video thumbnails, as for now they are served from <code>ytimg</code> (a service that google uses for storing and serving youtube images). Also I need to start
+working on the configuration page as it lacks most fundamental functions. Another good thing that I will be working on the future is on the ability to watch livestreams directly
+from Parasitter. And lastly, but not less important, the ability for the user to see a channel page directly from Parasitter.</p>
+<h2 id="conclusions">Conclusions</h2>
+<p>So that&rsquo;s it! It&rsquo;s been a great development week for Parasitter and it looks very good! I hope I can start testing on a public instance before September.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>The future of Parasitter: Alternative to Invidious?</title>
+            <link>/the-future-of-parasitter-alternative-to-invidious/</link>
+            <pubDate>Wed, 05 Aug 2020 20:07:18 +0200</pubDate>
+            
+            <guid>/the-future-of-parasitter-alternative-to-invidious/</guid>
+            <description>&lt;p&gt;It was bad news to read that Omar Roth, the main developer of Invidious, &lt;a href=&#34;https://omar.yt/posts/stepping-away-from-open-source&#34;&gt;is stepping away&lt;/a&gt; from the open source world. But in these cases, when awesome and useful projects are threatened by the discontinuation of their main developer, is when we have to squeeze our heads and think what we can do to solve it. And it is also important to support the person (Omar in this case) with their decision and be grateful for the time they have dedicated to the community.&lt;/p&gt;
+&lt;p&gt;Funny enough, a few weeks before this news I started a project called &lt;a href=&#34;https://github.com/pluja/Parasitter&#34;&gt;Parasitter&lt;/a&gt;. It was basically a web app which let you group all content from your Twitter&amp;rsquo;s and Youtube&amp;rsquo;s favorite creators and enjoy it all in one place. With the condition of respecting your privacy. So no connections to Youtube nor Twitter were made.&lt;/p&gt;
+&lt;p&gt;This was possible thanks to two awesome projects: &lt;a href=&#34;https://nitter.net&#34;&gt;Nitter&lt;/a&gt; and &lt;a href=&#34;https://invidio.us/&#34;&gt;Invidious&lt;/a&gt;. Both part from the same concept which is to let users read/watch Twitter/Youtube without the need of visiting their webpages nor making any connection to their servers. This is &lt;strong&gt;really&lt;/strong&gt; good as those services are known for &lt;strong&gt;not respecting privacy at all&lt;/strong&gt;. And, if you are reading this, you should know that &lt;strong&gt;privacy REALLY matters&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;A few weeks later, Omar announced that he was stepping away from the Invidious project, leaving the project without a programmer. This means that Parasitter will no longer be viable as it was fed by the Invidious API for most of its functions.&lt;/p&gt;
+&lt;p&gt;So from my point of view, and as much as I want Parasitter to be useful, I&amp;rsquo;m forced to squeeze my brain to find a way to replace Invidious&#39; main functions. If you can watch the videos and have a feed from your followed accounts with full privacy, I&amp;rsquo;ll be happy.&lt;/p&gt;
+&lt;p&gt;So this is my commitment for now. It may take a long time, just as it may never succeed. But I&amp;rsquo;ll spend as much free time as I can to move forward with this, to do research and try to get something functional.&lt;/p&gt;
+&lt;p&gt;As always: contributors of any kind are welcome.&lt;/p&gt;
+</description>
+            <content type="html"><![CDATA[<p>It was bad news to read that Omar Roth, the main developer of Invidious, <a href="https://omar.yt/posts/stepping-away-from-open-source">is stepping away</a> from the open source world. But in these cases, when awesome and useful projects are threatened by the discontinuation of their main developer, is when we have to squeeze our heads and think what we can do to solve it. And it is also important to support the person (Omar in this case) with their decision and be grateful for the time they have dedicated to the community.</p>
+<p>Funny enough, a few weeks before this news I started a project called <a href="https://github.com/pluja/Parasitter">Parasitter</a>. It was basically a web app which let you group all content from your Twitter&rsquo;s and Youtube&rsquo;s favorite creators and enjoy it all in one place. With the condition of respecting your privacy. So no connections to Youtube nor Twitter were made.</p>
+<p>This was possible thanks to two awesome projects: <a href="https://nitter.net">Nitter</a> and <a href="https://invidio.us/">Invidious</a>. Both part from the same concept which is to let users read/watch Twitter/Youtube without the need of visiting their webpages nor making any connection to their servers. This is <strong>really</strong> good as those services are known for <strong>not respecting privacy at all</strong>. And, if you are reading this, you should know that <strong>privacy REALLY matters</strong>.</p>
+<p>A few weeks later, Omar announced that he was stepping away from the Invidious project, leaving the project without a programmer. This means that Parasitter will no longer be viable as it was fed by the Invidious API for most of its functions.</p>
+<p>So from my point of view, and as much as I want Parasitter to be useful, I&rsquo;m forced to squeeze my brain to find a way to replace Invidious' main functions. If you can watch the videos and have a feed from your followed accounts with full privacy, I&rsquo;ll be happy.</p>
+<p>So this is my commitment for now. It may take a long time, just as it may never succeed. But I&rsquo;ll spend as much free time as I can to move forward with this, to do research and try to get something functional.</p>
+<p>As always: contributors of any kind are welcome.</p>
+]]></content>
+        </item>
+        
+        <item>
+            <title>Hello world!</title>
+            <link>/hello-world/</link>
+            <pubDate>Wed, 05 Aug 2020 17:42:46 +0200</pubDate>
+            
+            <guid>/hello-world/</guid>
+            <description>&lt;p&gt;So this is my first blog post. And when I say the first I mean &lt;strong&gt;the first&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;I&amp;rsquo;m not going to blather much on this post, instead I will write the two rules of this blog:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;I will talk about anything I like.&lt;/li&gt;
+&lt;li&gt;I will write when I feel like it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;That&amp;rsquo;s it. This is what you will find here. See you!&lt;/p&gt;
+</description>
+            <content type="html"><![CDATA[<p>So this is my first blog post. And when I say the first I mean <strong>the first</strong>.</p>
+<p>I&rsquo;m not going to blather much on this post, instead I will write the two rules of this blog:</p>
+<ul>
+<li>I will talk about anything I like.</li>
+<li>I will write when I feel like it.</li>
+</ul>
+<p>That&rsquo;s it. This is what you will find here. See you!</p>
+]]></content>
+        </item>
+        
+    </channel>
+</rss>

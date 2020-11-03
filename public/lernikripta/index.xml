@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lernikripta on P L U J A</title>
+    <link>/lernikripta/</link>
+    <description>Recent content in Lernikripta on P L U J A</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>EN</language>
+    <copyright>&lt;a href=&#39;https://creativecommons.org/licenses/by/4.0/&#39; target=&#39;_blank&#39;&gt;CC-BY 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 22 Sep 2020 14:19:22 +0200</lastBuildDate><atom:link href="/lernikripta/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lerni kripta 02: Bitcoin</title>
+      <link>/lernikripta/02/</link>
+      <pubDate>Tue, 22 Sep 2020 14:19:22 +0200</pubDate>
+      
+      <guid>/lernikripta/02/</guid>
+      <description>I am sure if we ask anyone on the street about Bitcoin they will probably have heard about it at least once. But if we ask if they own bitcoin or if they have ever used Bitcoin their answer would be &amp;ldquo;no&amp;rdquo;. Maybe this is your answer.
+Well, it&amp;rsquo;s normal. Bitcoin is a super-new technology that came out only 10 years ago. It may seem a lot to you, but have in mind that the internet was born in 1970s and until the 2000s it didn&amp;rsquo;t start to go viral among the average-user.</description>
+    </item>
+    
+    <item>
+      <title>Lerni Kripta 01: Hello!</title>
+      <link>/lernikripta/01/</link>
+      <pubDate>Mon, 21 Sep 2020 23:26:57 +0200</pubDate>
+      
+      <guid>/lernikripta/01/</guid>
+      <description>In this blog series I want to talk about a topic that I really love: cryptocurrencies and blockchain.
+I will be learning along the path of writing this. As for now I know the basics and a bit more, but I want to get to an intermediate level. It is said that if you can explain something, and get others to understand it, you can consider that you have knowledge about that.</description>
+    </item>
+    
+  </channel>
+</rss>

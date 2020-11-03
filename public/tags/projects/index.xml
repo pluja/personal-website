@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on P L U J A</title>
+    <link>/tags/projects/</link>
+    <description>Recent content in Projects on P L U J A</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>EN</language>
+    <copyright>&lt;a href=&#39;https://creativecommons.org/licenses/by/4.0/&#39; target=&#39;_blank&#39;&gt;CC-BY 4.0&lt;/a&gt;</copyright>
+    <lastBuildDate>Wed, 05 Aug 2020 20:07:18 +0200</lastBuildDate><atom:link href="/tags/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>The future of Parasitter: Alternative to Invidious?</title>
+      <link>/the-future-of-parasitter-alternative-to-invidious/</link>
+      <pubDate>Wed, 05 Aug 2020 20:07:18 +0200</pubDate>
+      
+      <guid>/the-future-of-parasitter-alternative-to-invidious/</guid>
+      <description>It was bad news to read that Omar Roth, the main developer of Invidious, is stepping away from the open source world. But in these cases, when awesome and useful projects are threatened by the discontinuation of their main developer, is when we have to squeeze our heads and think what we can do to solve it. And it is also important to support the person (Omar in this case) with their decision and be grateful for the time they have dedicated to the community.</description>
+    </item>
+    
+  </channel>
+</rss>
